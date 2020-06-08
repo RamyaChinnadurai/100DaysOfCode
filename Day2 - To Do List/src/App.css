@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+.taskArea{
+  height: 50px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-row-gap: 50px;
+}
+
+.taskDisplay{
+  display: grid;
+  grid-template-columns: 51% 54%;
+  padding: 5px;
+    display: grid;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.taskCount{
+  height: 60px;
+}
+
+.buttonDiv{
+  display: grid;
+    grid-template-columns: 40% 40%;
+}
+
+.title{
+  color:white
+}
+
+.markAsDone{
+  width:100px;
+  height: 50%;
+}
+
+.delete{
+  margin-left: 25px;
+  width: 100px;
+  height: 50%;
+}
+
+.tasks{
+    color: white;
+    font-size: 24px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.inputTask{
+  font-size: 20px;
+}
