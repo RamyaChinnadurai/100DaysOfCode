@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.taskDiv{
+  background: url('bg2.jpg');
+    top: 10%;
+    left: 30%;
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    padding: 2%;
+
+
+}
+
+.addTask{
+  margin-left: 10px;
+  width: 100px;
+}
+
+.MarkAsDone{
+  text-decoration: line-through;
+}
