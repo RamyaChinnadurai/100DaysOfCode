@@ -6,3 +6,6 @@ Simple Calculator built with html, css and vanilla javascript. Starting with sim
 
 # Day 2
 To Do List app built with pure react. An app to add tasks, mark it as complete and finally delete it. 
+
+# Day 3
+Twitter Dynamic Name Generator. Name updated dynamically with the followers count. Updated for every one minute.
