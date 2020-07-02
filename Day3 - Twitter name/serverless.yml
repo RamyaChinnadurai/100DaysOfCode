@@ -1,0 +1,28 @@
+service: twitter-scheduler
+
+custom:
+    twitter_consumer_key: ${ssm:/twitter_consumer_key~true}
+    twitter_consumer_secret: ${ssm:/twitter_consumer_secret~true}
+    twitter_access_token_key: ${ssm:/twitter_access_token_key~true}
+    twitter_access_token_secret: ${ssm:/twitter_access_token_secret~true}
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  stage: prod
+  region: ap-south-1
+  environment:
+      STAGE: prod
+  
+functions:
+  subscription:
+    handler: index.handler
+    environment: 
+      twitter_consumer_key: ${self:custom.twitter_consumer_key}
+      twitter_consumer_secret: ${self:custom.twitter_consumer_secret}
+      twitter_access_token_key: ${self:custom.twitter_access_token_key}
+      twitter_access_token_secret: ${self:custom.twitter_access_token_secret}
+    events:
+      - schedule: rate(1 minute)
+
+   
