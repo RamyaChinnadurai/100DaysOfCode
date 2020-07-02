@@ -1,5 +1,5 @@
 {
-  "name": "my-special-service",
+  "name": "twitter-name-update",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
@@ -10,5 +10,9 @@
   "license": "MIT",
   "devDependencies": {
     "serverless-google-cloudfunctions": "*"
+  },
+  "dependencies": {
+    "node-emoji": "^1.10.0",
+    "twitter-lite": "^0.14.0"
   }
 }
