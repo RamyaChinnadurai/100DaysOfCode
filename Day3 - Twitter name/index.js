@@ -8,28 +8,27 @@ const client = new Twitter({
   access_token_key: process.env.twitter_access_token_key, // from your User (oauth_token)
   access_token_secret: process.env.twitter_access_token_secret, // from your User (oauth_token_secret)
 });
+const name = "Rams"; // Change to your name;
+const emoji = "👩‍💻"; // Change as per your wish
 
-exports.handler = ()=>{
-
+exports.handler = () => {
   client
-  .get("account/verify_credentials")
-  .then((results) => {
-    const followerCount = results.followers_count;
-    const string      = followerCount.toString();
-    const stringSplit = string.split("");
-    const followers = stringSplit.reduce((acc, val)=>{ return acc + numberMatch[val]},'')
-    const user_name = "Rams | 👩‍💻 |" + followers;
-    console.log('user_name: ', user_name);
-    
-    const response =  client.post("account/update_profile", {
-    name: user_name
-    });
-   
-  })
-  .catch(console.error);
-
-}
-
+    .get("account/verify_credentials")
+    .then((results) => {
+      const followerCount = results.followers_count;
+      const string = followerCount.toString();
+      const stringSplit = string.split("");
+      const followers = stringSplit.reduce((acc, val) => {
+        return acc + numberMatch[val];
+      }, "");
+      const user_name = `${name} | ${emoji} |" + ${followers}`;
+      console.log("user_name: ", user_name);
+      const response = client.post("account/update_profile", {
+        name: user_name,
+      });
+    })
+    .catch(console.error);
+};
 
 const numberMatch = {
   "0": "0️⃣",
