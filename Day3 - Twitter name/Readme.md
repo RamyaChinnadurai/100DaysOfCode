@@ -1,10 +1,10 @@
-# Twitter Dynamic Name Generator 
+
 
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/1j189nwdo2g4lzp7tez2.png)
 
-Twitter dynamic name generator is a pet project in which my twitter profile name updates for every minute by appending the name with the followers count. I just written this readme as a journel note, how I did this.
+Twitter dynamic name generator is a pet project in which the twitter profile name updates for every minute with the followers count. I just written this article as a journel note of how I did this.
 
-It was did as a challenge for #100DaysOfCode.  Thanks for to [Suren](https://twitter.com/radnerus93) and [Vadim Bauer](https://twitter.com/BauerVadim) for their idea inspiration. Special thanks to [Karthikeyan](https://twitter.com/_karthikyn) for his guidance.
+It was done as one of the challenge of #100DaysOfCode.  Thanks for to [Suren](https://twitter.com/radnerus93) and [Vadim Bauer](https://twitter.com/BauerVadim) for their idea inspiration. Special thanks to [Karthikeyan](https://twitter.com/_karthikyn) for his guidance.
 
 ##### Tech Stack Includes, 
   * [Twitter lite](https://www.npmjs.com/package/twitter-lite) - to communicate with twitter API
@@ -14,29 +14,22 @@ It was did as a challenge for #100DaysOfCode.  Thanks for to [Suren](https://twi
 # How I did this? What all the steps? 
 Initially started with the guidance of [this aritcle](https://dev.to/radnerus/twitter-api-is-followers-count-mda) written by [Suren](https://twitter.com/radnerus93). I majorly break down this task into 3 parts.
 
-1. Getting  Twitter API key from Twitter Dev account.
+1. Getting Twitter API key from Twitter Dev account.
 2. Node js script to update the profile name.
 3. Cron part to update the profile name for every 1 minute.
 
 ## Step 1 - Getting twitter API keys
 
-1. Go to [twitter developers page](https://developer.twitter.com/) and sign in. 
-2. Verify your developers account by providing the required informatios.
-3. After verifying with the email, you developers account will be created.
-4. Once completed, in to the [Get Started](https://developer.twitter.com/en/account/get-started) page, Click [Create an app](https://developer.twitter.com/en/apps/create).
-5. There enter the required details like, app name, app description, website url, and so on.
-6. You have to clearly explain the reason of how your are going to use the app. 
-7. After reviewing the terms, your app will be created. 
-8. Now you can get the key and tokens in the second tab. Note down the Consumer API key and Consumer API Secret key.
-9. Click the Generate button near the Access token & access token secret to get the Access token and Access token secret. Note it down too!
-10. At the end of this step you will get the **Consumer API key**, **Consumer API Secret key**, **Access token**, **Access secret key**.
+Went to the [twitter developers page](https://developer.twitter.com/) as mentioned in the article and signed in. By providing the required informations, twitter asked me to verify with my account email. Once verified with the email, my developers account was created.(Hurray!🎉) In the [Create an app](https://developer.twitter.com/en/apps/create) after entering the informations like app name, app description and so on, it asked me to clearly explain the reason of how I'm going to use the app. After reviewing the terms, my app was be created. Noted down the Consumer API key, Consumer API Secret key and Access token & access token secret keys!
 
-Now you are ready to dive into the coding part!
+At the end this step I got my **Consumer API key**, **Consumer API Secret key**, **Access token**, **Access secret key**.
+
+Next interesting part! lets to dive into the coding part!
 
 ## Step 2 - Script to update the profile name. 
 
 Okay, now it coding time. Fire mode on🔥
-So I choosed [node.js](https://nodejs.org/) as I'am familiar with that. From the [Suren article](https://twitter.com/radnerus93) I came to know about the [twitter-lite](https://www.npmjs.com/package/twitter-lite). 
+I choosed [node.js](https://nodejs.org/) as I'am familiar with that. From the [Suren article](https://twitter.com/radnerus93) I came to know about the [twitter-lite](https://www.npmjs.com/package/twitter-lite). 
 
 Started with the simple, 
 ```
@@ -86,8 +79,8 @@ exports.handler = () => {
       const followers = stringSplit.reduce((acc, val) => {
         return acc + numberMatch[val];
       }, "");
-      const user_name = `${name} | ${emoji} |" + ${followers}`;
-      console.log("user_name: ", user_name);
+      const profile_name = `${name} | ${emoji} |" + ${followers}`;
+      console.log("profile_name: ", profile_name);
     })
     .catch(console.error);
 };
@@ -153,9 +146,9 @@ functions:
 
 This cron runs for every 1 minute, and the new profile name is updated dynamically. New profile name is consoled in cloud watch. 
 
-I have used another service [AWS System Manager(SSM)](https://www.amazonaws.cn/en/systems-manager/). In order to avoid the exposure of explicit keys. 
+I have used service [AWS System Manager(SSM)](https://www.amazonaws.cn/en/systems-manager/) to avoid the exposure of explicit keys. 
 
-Finally, my work is done. Link to the [source code](https://github.com/RamyaChinnadurai/100DaysOfCode/tree/master/Day3%20-%20Twitter%20name).
+Finally, my work is done. Here is the link to the [source code](https://github.com/RamyaChinnadurai/100DaysOfCode/tree/master/Day3%20-%20Twitter%20name).
 
 For any doubts, suggestions and feedback contact me in my twitter profile [@code_rams](https://twitter.com/code_rams). Hope you enjoyed and find this useful. Thanks for reading.
 
