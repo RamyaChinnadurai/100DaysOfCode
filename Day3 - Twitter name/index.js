@@ -11,16 +11,20 @@ const client = new Twitter({
 const name = "Rams"; // Change to your name;
 const emoji = "👩‍💻"; // Change as per your wish
 
+const numberMatch = ['0️⃣', '1️⃣', '2️⃣', '3️⃣', '4️⃣', '5️⃣', '6️⃣', '7️⃣', '8️⃣', '9️⃣'];
+const countToEmojis = count => {
+  const countAsStringArray = count.toString().split('');
+
+  return countAsStringArray
+    .map(number => numberMatch[+number])
+    .join('');
+};
+
 exports.handler = () => {
   client
     .get("account/verify_credentials")
     .then((results) => {
-      const followerCount = results.followers_count;
-      const string = followerCount.toString();
-      const stringSplit = string.split("");
-      const followers = stringSplit.reduce((acc, val) => {
-        return acc + numberMatch[val];
-      }, "");
+      const followers = countToEmojis(results.followers_count);
       const user_name = `${name} | ${emoji} |" + ${followers}`;
       console.log("user_name: ", user_name);
       const response = client.post("account/update_profile", {
@@ -28,17 +32,4 @@ exports.handler = () => {
       });
     })
     .catch(console.error);
-};
-
-const numberMatch = {
-  "0": "0️⃣",
-  "1": "1️⃣",
-  "2": "2️⃣",
-  "3": "3️⃣",
-  "4": "4️⃣",
-  "5": "5️⃣",
-  "6": "6️⃣",
-  "7": "7️⃣",
-  "8": "8️⃣",
-  "9": "9️⃣",
 };
