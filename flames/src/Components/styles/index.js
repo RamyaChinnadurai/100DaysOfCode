@@ -115,7 +115,3 @@ export const OuterDiv = styled.div`
     border-radius: 10%;
 `;
 
-export const ResultDiv = styled.div`
-    margin-top: 20%;
-    font-weight: bolder;
-`;

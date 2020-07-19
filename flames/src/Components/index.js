@@ -1,5 +1,5 @@
 import React from 'react';
-import { OuterDiv, TextBox, FindButton, RelationShip, ResultDiv } from './styles';
+import { OuterDiv, TextBox, FindButton, RelationShip } from './styles';
 
 class Flames extends React.Component {
 
@@ -81,7 +81,7 @@ class Flames extends React.Component {
     }
 
     render(){
-        const { name, partnerName, result, calculate } = this.state;
+        const { name, partnerName, result } = this.state;
        
         return(
             <OuterDiv> 
