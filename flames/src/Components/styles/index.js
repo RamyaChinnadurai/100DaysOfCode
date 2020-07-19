@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export const TextBox = styled.input`
 
     border: 0;
@@ -16,6 +17,34 @@ export const TextBox = styled.input`
 
 export const FindButton = styled.div`
 
+    @keyframes heartbeat
+    {
+        0%
+        {
+            transform: scale( .75 );
+        }
+        20%
+        {
+            transform: scale( 1 );
+        }
+        40%
+        {
+            transform: scale( .75 );
+        }
+        60%
+        {
+            transform: scale( 1 );
+        }
+        80%
+        {
+            transform: scale( .75 );
+        }
+        100%
+        {
+            transform: scale( .75 );
+        }
+    }
+
     position: relative;
     width: 100px;
     height: 90px;
@@ -25,6 +54,7 @@ export const FindButton = styled.div`
     margin-left: 35%;
     margin-top: 5%;
     cursor: pointer;
+    animation: ${props => props.result !== "Find Relationship" ? 'heartbeat 3s 3' : '' };
 
     :before,
     :after{
@@ -66,10 +96,13 @@ export const FindButton = styled.div`
 export const RelationShip = styled.div`
         position:absolute;
         z-index:3;
-        margin-left: 35px;
-        margin-top:50px;
+        margin-left: ${props => props.result ? '50%' : '35px'};
+        margin-top: ${props => props.result ? '50%' : '35px'};
         color:white;
         font-weight: bolder;
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
 `;
 
 export const OuterDiv = styled.div`
