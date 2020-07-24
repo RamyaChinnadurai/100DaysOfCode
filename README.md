@@ -12,3 +12,6 @@ Twitter Dynamic Name Generator. Name updated dynamically with the followers coun
 
 # Day 4
 FLAMES - The most popular relationship calculator among youngsters. FLAMES for Friends, Love, Affectionate, Marriage, Enemy and Sisters.
+
+# Day 5
+MOCHA Testing - Written test cases using mocha test framework for nodejs.
