@@ -15,3 +15,6 @@ FLAMES - The most popular relationship calculator among youngsters. FLAMES for F
 
 # Day 5
 MOCHA Testing - Written test cases using mocha test framework for nodejs.
+
+# Day 6 
+TAILWIND CSS - Learning tailwind css by watching tutorial @traversymedia
