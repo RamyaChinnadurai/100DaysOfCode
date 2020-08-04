@@ -5,16 +5,99 @@
     <meta name="viewport" content="width=  , initial-scale=1.0">
     <meta http-quiv= "X-UA-Compatible" content="id-edge" />
     <link rel="stylesheet" href="style.css" />
-    <title>Biznet</title>
+    <title> Hobby list </title>
 </head>
 <body class="bg-blue-700">
-    <div class="container "> 
+    <!-- NAVBAR COMPONENT -->
+    <nav class="flex items-center justify-between flex-wrap bg-gray-800 p-6 ">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+            <font-bold class="text-xl">
+               Hobby list
+            </font-bold>
+        </div>
+
+        <div class="w-full block flex-grow sm:flex sm:items-center sm:w-auto">
+            <div class="sm:flex-grow">
+                <a href="#" class="block mt-4 sm:inline-block sm: mt-0 text-teal-200 hover:text-white mr-4"> 
+                    Coding 
+                </a>
+                <a href="#" class="block mt-4 sm:inline-block sm: mt-0 text-teal-200 hover:text-white mr-4"> 
+                    Drawing 
+                </a>
+                <a href="#" class="block mt-4 sm:inline-block sm: mt-0 text-teal-200 hover:text-white mr-4"> 
+                    Painting 
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5"> 
+        <!-- BUTTON COMPONENT -->
          <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 rounded"> 
              Find Friends 
         </button>
 
         <button class="btn btn-blue"> Find Groups </button>
+
+        <!-- ALERT COMPONENT -->
+        <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative my-5" role="alert">
+            <strong class="font-bold">
+                Alert! 
+                <span class="block sm:inline"> Please update your password </span>
+            </strong>
+        </div>
     </div>
    
+    <!-- CARD COMPONENT -->
+    <div class="max-w-sm mx-auto flex p-6 bg-white rounded-lg shadow-xl">
+        <div class="flex-shrink-0">
+            <img src="img/action.jpg" alt="" class="h-12 w-12">
+        </div>
+        <div class="ml-6 pt-1">
+            <h4 class="text-xl text-gray-900"> Put your plan to action </h4>
+            <p class="text-base text-gray-600"> You have a mesasge </p>
+        </div>
+    </div>
+
+    <!-- CARD COLUMNS -->
+    <div class="container mt-5">
+        <div class="md:flex">
+            <div class="flex-1 text-gray-700 text-center bg-gray-400 px-5 py-5 m-2 rounded">
+
+                <div class="lg:flex lg:items-center">
+                    <div class="lg:flex-shrink-0">
+                        <img src="img/image1.jpg" class="rounded-lg lg:w-64" alt=""
+                        />
+                    </div>
+                    <div class="mt-4 lg:mt-0 lg:ml-6">
+                        <div class="uppercase tracking-wide text-sm-text-indigo-600 font-bold">
+                            Drawing and Painting 
+                        </div>
+                        <a href="#" class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline"> by Adobe fresco </a>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="flex-1 text-gray-700 text-center bg-gray-400 px-5 py-5 m-2 rounded">
+
+                <div class="lg:flex lg:items-center">
+                    <div class="lg:flex-shrink-0">
+                        <img src="img/image1.jpg" class="rounded-lg lg:w-64" alt=""
+                        />
+                    </div>
+                    <div class="mt-4 lg:mt-0 lg:ml-6">
+                        <div class="uppercase tracking-wide text-sm-text-indigo-600 font-bold">
+                            Drawing and Painting 
+                        </div>
+                        <a href="#" class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline"> by Adobe fresco </a>
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </div>
+
+    </div>
 </body>
 </html>
