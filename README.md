@@ -11,10 +11,16 @@ To Do List app built with pure react. An app to add tasks, mark it as complete a
 Twitter Dynamic Name Generator. Name updated dynamically with the followers count. Updated for every one minute.
 
 # Day 4
-FLAMES - The most popular relationship calculator among youngsters. FLAMES for Friends, Love, Affectionate, Marriage, Enemy and Sisters.
+FLAMES - The most popular relationship calculator among youngsters. FLAMES for Friends, Love, Affectionate, Marriage, Enemy and Sisters. Finised UI. 
 
 # Day 5
+FLAMES - Completed the functionality.
+
+# Day 6
 MOCHA Testing - Written test cases using mocha test framework for nodejs.
 
-# Day 6 
+# Day 7 
 TAILWIND CSS - Learning tailwind css by watching tutorial @traversymedia
+
+# Day 8 
+DELETE Operator - Written an article how delete operator can be used and it can be your super saver. 
