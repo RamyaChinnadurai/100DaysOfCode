@@ -3,7 +3,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Rams code'
+const name = 'Rams codes'
 export const siteTitle = 'Rams codes website'
 
 export default function Layout({ children, home }) {
