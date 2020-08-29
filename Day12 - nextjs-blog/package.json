@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "date-fns": "^2.16.0",
+    "fs": "0.0.1-security",
     "gray-matter": "^4.0.2",
     "next": "9.3.5",
     "react": "16.13.1",
