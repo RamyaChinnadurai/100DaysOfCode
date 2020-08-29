@@ -24,3 +24,18 @@ TAILWIND CSS - Learning tailwind css by watching tutorial @traversymedia
 
 # Day 8 
 DELETE Operator - Written an article how delete operator can be used and it can be your super saver. 
+
+# Day 9 
+100DaysOfCodes - Integrated firebase authentication using nextjs. Blog link rams.codes
+
+# Day 10
+rams.codes - Build a blog using gatsby and deployed in netlify. 
+
+# Day 11 
+NEXTJS - Learned Basics, navigations and link 
+
+# Day 12 
+NEXTJS - Learned about Assets, Metadata and Css, Pre-rendering and Data Fetching and Dynamic routes 
+
+
+ 
