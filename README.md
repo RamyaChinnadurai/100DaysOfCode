@@ -37,5 +37,10 @@ NEXTJS - Learned Basics, navigations and link
 # Day 12 
 NEXTJS - Learned about Assets, Metadata and Css, Pre-rendering and Data Fetching and Dynamic routes 
 
+# Day 13 
+NEXTJS - Completed the starter learning and deployed the blog in the vercel. Blog link https://rams-codes.vercel.app/
+
+
+
 
  
