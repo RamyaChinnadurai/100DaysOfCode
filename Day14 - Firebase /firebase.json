@@ -1,12 +1,8 @@
 {
+  "firestore": {
+    "rules": "firestore.rules"
+  },
   "hosting": {
-    "public": "./public",
-    "headers": [{
-      "source" : "**/*.@(js|html)",
-      "headers" : [ {
-        "key" : "Cache-Control",
-        "value" : "max-age=0"
-      } ]
-    }]
+    "public": "./public"
   }
 }
