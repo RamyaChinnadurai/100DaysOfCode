@@ -1,0 +1,13 @@
+[debug] [2020-08-31T17:46:18.368Z] ----------------------------------------------------------------------
+[debug] [2020-08-31T17:46:18.370Z] Command:       /usr/local/bin/node /usr/local/bin/firebase use --add
+[debug] [2020-08-31T17:46:18.370Z] CLI Version:   8.9.2
+[debug] [2020-08-31T17:46:18.370Z] Platform:      darwin
+[debug] [2020-08-31T17:46:18.370Z] Node Version:  v12.16.1
+[debug] [2020-08-31T17:46:18.371Z] Time:          Mon Aug 31 2020 23:16:18 GMT+0530 (India Standard Time)
+[debug] [2020-08-31T17:46:18.371Z] ----------------------------------------------------------------------
+[debug] [2020-08-31T17:46:18.372Z] 
+[debug] [2020-08-31T17:46:18.380Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-31T17:46:18.380Z] > authorizing via signed-in user
+[debug] [2020-08-31T17:46:18.385Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=1000  
+ 
+[debug] [2020-08-31T17:46:18.966Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 31 Aug 2020 17:46:21 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
