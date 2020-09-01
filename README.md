@@ -43,4 +43,5 @@ NEXTJS - Completed the starter learning and deployed the blog in the vercel. Blo
 # Day 14 
 FIREBASE - Completed the firebase codelab and build the chat application. Deployed in https://friendlychat-413ba.web.app/
 
- 
+# Day 15
+FIREBASE - Learned about the firebase cloud functions and firestore events. Same worked in the friendly chat. Deployed in https://friendlychat-413ba.web.app/
