@@ -47,4 +47,7 @@ FIREBASE - Completed the firebase codelab and build the chat application. Deploy
 FIREBASE - Learned about the firebase cloud functions and firestore events. Same worked in the friendly chat. Deployed in https://friendlychat-413ba.web.app/
 
 # Day 16 
-FREECODECAMP - Completed the redux concepts in freecodecamp.
+FREECODECAMP - Brushed up the concept - redux in freecodecamp.
+
+# Day 17 
+FREECODECAMP - Brushed up the concept - react redux app in freecodecamp. 
