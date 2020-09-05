@@ -57,3 +57,6 @@ FREECODECAMP - Brushed up the concept - mongodb and mongoose.
 
 # Day 19
 FREECODECAMP - Brushed up the concept - Regex Expression
+
+# Day 20 
+FREECODECAMP - Brushed up the debugging skills.
