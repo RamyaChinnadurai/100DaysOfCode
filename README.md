@@ -60,3 +60,6 @@ FREECODECAMP - Brushed up the concept - Regex Expression
 
 # Day 20 
 FREECODECAMP - Brushed up the debugging skills.
+
+# Day 21
+FREECODECAMP - Created a tribute page for Stephen Hawking
