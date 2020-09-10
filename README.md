@@ -69,3 +69,6 @@ FREECODECAMP - Built a survey form - project 2 in Responsive web design
 
 # Day 23 
 FREECODECAMP - Built a product landing page - project 3 in Responsive web design
+
+# Day 24 
+FREECODECAMP - Built a technical documentation - project 4 in Responsive web design 
