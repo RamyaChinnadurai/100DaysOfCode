@@ -65,4 +65,7 @@ FREECODECAMP - Brushed up the debugging skills.
 FREECODECAMP - Created a tribute page for Stephen Hawking
 
 # Day 22 
-FREECODECAMP - Built a survey form in project 2 in Responsive web design
+FREECODECAMP - Built a survey form - project 2 in Responsive web design
+
+# Day 23 
+FREECODECAMP - Built a product landing page - project 3 in Responsive web design
