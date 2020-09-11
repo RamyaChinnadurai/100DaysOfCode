@@ -75,3 +75,6 @@ FREECODECAMP - Built a technical documentation - project 4 in Responsive web des
 
 # Day 25
 FREECODECAMP - Built a personal portfolio - project 5 in Responsive web design
+
+# Day 26
+FREECODECAMP - Brushed up the concept Functional programming in javascript 
