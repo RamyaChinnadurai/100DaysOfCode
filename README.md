@@ -78,3 +78,6 @@ FREECODECAMP - Built a personal portfolio - project 5 in Responsive web design
 
 # Day 26
 FREECODECAMP - Brushed up the concept Functional programming in javascript 
+
+# Day 27
+FREECODECAMP - Solved Intermediate Algorithm Scripting problems in javascript 
