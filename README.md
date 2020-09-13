@@ -81,3 +81,6 @@ FREECODECAMP - Brushed up the concept Functional programming in javascript
 
 # Day 27
 FREECODECAMP - Solved Intermediate Algorithm Scripting problems in javascript 
+
+# Day 28 
+FREECODECAMP - Solved Javascript Algorithms and Data structures projects 
