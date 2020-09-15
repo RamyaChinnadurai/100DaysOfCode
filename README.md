@@ -87,3 +87,6 @@ FREECODECAMP - Solved Javascript Algorithms and Data structures projects
 
 # Day 29 
 FREECODCAMP - Learned Sass Concept 
+
+# Day 30 
+FREECODECAMP - Brushed up the JSON APIs and Ajax 
