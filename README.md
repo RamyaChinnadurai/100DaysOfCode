@@ -90,3 +90,6 @@ FREECODCAMP - Learned Sass Concept
 
 # Day 30 
 FREECODECAMP - Brushed up the JSON APIs and Ajax 
+
+# Day 31
+FREECODECAMP - Built a random quote machine - project 1 in Front End Libraries project
