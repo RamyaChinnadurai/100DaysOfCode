@@ -93,3 +93,6 @@ FREECODECAMP - Brushed up the JSON APIs and Ajax
 
 # Day 31
 FREECODECAMP - Built a random quote machine - project 1 in Front End Libraries project
+
+# Day 32 
+FREECODECAMP - Built a Markdown Previewer - Project 2 in Front End Libraries 
