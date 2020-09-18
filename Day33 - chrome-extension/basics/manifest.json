@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Coding Train Extension 2",
+    "name": "Coding Train Pop Up",
     "version": "0.001",
     "content_scripts": [
         {
@@ -12,12 +12,9 @@
             ]
         }
     ],
-    "background" : {
-        "scripts": [
-            "background.js"
-        ]
-    },
     "browser_action": {
-        "default_icon": "ct.png"
+        "default_icon": "ct.png",
+        "default_popup": "popup.html",
+        "default_title": "this is a popup"
     }
 }
