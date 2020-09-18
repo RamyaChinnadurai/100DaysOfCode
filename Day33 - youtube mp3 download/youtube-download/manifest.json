@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Youtube mp3 mp4 downloader",
+    "version": "0.01",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "browser_action": {
+        "default_icon": "yt.png",
+        "default_popup": "popup.html",
+        "default_title": "this is a popup"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
