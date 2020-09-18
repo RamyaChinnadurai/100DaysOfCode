@@ -1,7 +1,10 @@
 console.log("Background script is running ");
 
-chrome.browserAction.onClicked(buttonClicked);
+chrome.browserAction.onClicked.addListener(buttonClicked);
 
-function buttonClicked(){
-    console.log("button is clicked");
+function buttonClicked(tab){
+    const message = {
+        text: "hello"
+    }
+    chrome.tabs.sendMessage(tab.id, message);
 }
