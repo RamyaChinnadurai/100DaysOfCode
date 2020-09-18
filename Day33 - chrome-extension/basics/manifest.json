@@ -2,12 +2,19 @@
     "manifest_version": 2,
     "name": "Coding Train Extension",
     "version": "0.001",
-    "conent_scripts": [
+    "content_scripts": [
         {
             "matches": [
                 "<all_urls>"
             ],
-            "js": "content.js"
+            "js": [
+                "content.js"
+            ]
         }
-    ]
+    ],
+    "background" : {
+        "js": [
+            "background.js"
+        ]
+    }
 }
