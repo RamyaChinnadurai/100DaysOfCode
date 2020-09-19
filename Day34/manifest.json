@@ -5,9 +5,10 @@
     "content_scripts": [
         {
             "matches": [
-                "all_urls"
+                "<all_urls>"
             ],
             "js": [
+                "p5.js",
                 "sketch.js"
             ]
         }
