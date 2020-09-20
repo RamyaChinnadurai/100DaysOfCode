@@ -99,3 +99,6 @@ FREECODECAMP - Built a Markdown Previewer - Project 2 in Front End Libraries
 
 # Day 33 
 CHROME EXTENSION - Built a chrome extension to download youtube mp3 mp4 format
+
+# Day 34 
+CHROME EXTENSION - To create sketch doodles on any web pages
