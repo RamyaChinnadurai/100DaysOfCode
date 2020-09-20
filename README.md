@@ -102,3 +102,6 @@ CHROME EXTENSION - Built a chrome extension to download youtube mp3 mp4 format
 
 # Day 34 
 CHROME EXTENSION - To create sketch doodles on any web pages
+
+# Day 35 
+FREECODECAMP - Data visualisation with d3 js
