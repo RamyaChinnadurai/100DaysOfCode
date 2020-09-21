@@ -105,3 +105,6 @@ CHROME EXTENSION - To create sketch doodles on any web pages
 
 # Day 35 
 FREECODECAMP - Data visualisation with d3 js
+
+# Day 36 
+FREECODECAMP - Built a Drum Machine - Project 3 in Front End Libraries
