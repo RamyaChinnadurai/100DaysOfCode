@@ -7,11 +7,11 @@ const menuItem = {
 chrome.contextMenus.create(menuItem);
 
 function fixedEncodeURI(string){
-    return encodeURI(str).replace(/%5B/g, '[').replace(/%5D/g, ']');
+    return encodeURI(string).replace(/%5B/g, '[').replace(/%5D/g, ']');
 }
 
 chrome.contextMenus.onClicked.addListener(function(clickData){
-    const selectedText = clickData.selectedText;
+    const selectedText = clickData.selectionText;
     if(clickData.menuItemId == "wiki-search" && selectedText) {
         const wikiUrl = "https://en.wikipedia.org/wiki/" + fixedEncodeURI(selectedText);
         const request = {
@@ -22,6 +22,6 @@ chrome.contextMenus.onClicked.addListener(function(clickData){
             "width": screen.availWidth/2,
             "height": screen.availHeight/2
         };
-        chrome.windows.create(request, function(){});
+      chrome.windows.create(request, function(){});
     }
 })
