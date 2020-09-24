@@ -114,3 +114,6 @@ FREECODECAMP - Built a Javascript Calculator - Project 4 in Front End Libraries
 
 # Day 38 
 FREECODECAMP - Built 25 + 5 Clock - Project 5 in Front End Libraries 
+
+# Day 39
+CHROME EXTENSION - Create wikipedia search on new tab
