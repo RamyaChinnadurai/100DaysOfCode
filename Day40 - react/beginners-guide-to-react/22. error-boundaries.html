@@ -37,16 +37,18 @@
       function App() {
         const [explode, setExplode] = React.useState(false)
         return (
-          <div>
-            <div>
-              <button onClick={() => setExplode(true)}>💣</button>
-            </div>
-            <div>
-              <ErrorBoundary FallbackComponent={ErrorFallback}>
-                {explode ? <Bomb /> : 'Push the button Max!'}
-              </ErrorBoundary>
-            </div>
-          </div>
+            <ErrorBoundary FallbackComponent={ErrorFallback}>
+                <div>
+                    <div>
+                    <button onClick={() => setExplode(true)}>💣</button>
+                    </div>
+                    <div>
+                    
+                        {explode ? <Bomb /> : 'Push the button Max!'}
+
+                    </div>
+                </div> 
+            </ErrorBoundary>
         )
       }
       ReactDOM.render(<App />, document.getElementById('root'))
