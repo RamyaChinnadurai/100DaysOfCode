@@ -117,3 +117,6 @@ FREECODECAMP - Built 25 + 5 Clock - Project 5 in Front End Libraries
 
 # Day 39
 CHROME EXTENSION - Create wikipedia search on new tab
+
+# Day 40 
+EGGHEAD.IO - Completed the React course - The Beginner's Guide to React by Kent C.Dodds 
