@@ -120,3 +120,6 @@ CHROME EXTENSION - Create wikipedia search on new tab
 
 # Day 40 
 EGGHEAD.IO - Completed the React course - The Beginner's Guide to React by Kent C.Dodds 
+
+# Day 41
+CODEPEN - Created typing game to learn typing on the go. Codepen link - https://codepen.io/ramyachinnadurai/full/MWyxXyp
