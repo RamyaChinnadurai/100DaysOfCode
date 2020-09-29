@@ -1,0 +1,162 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  color: white;
+  background-color: #0f0c29;  
+}
+
+#title{
+  text-align: center;
+  font-size: 2rem;
+  width: 90%;
+  padding: 0.5em;
+}
+
+body, .quote-input{
+   font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%
+}
+
+.header{
+  display: flex;
+  align-items: center;
+}
+
+.timer, .errors, .accuracy, .cpm, .wpm{
+  height: 2%;
+  background-color: #243B55;
+  margin: 15px;
+  padding: 12px;
+  border-radius: 5px;
+  box-shadow: black 5px 8px 5px;
+
+}
+
+
+.currentTimer, .currentErros, 
+.currentAccuracy, .currentAccuracy, 
+.currentWpm { 
+  text-align:center;
+  padding: 5px;
+} 
+
+
+#quote-div{
+  background-color: #243B55;
+  padding: 1rem;
+  width: 700px;
+  max-width: 90%;
+  border-radius: .5rem;
+}
+
+#quoteDisplay{
+  margin-bottom: 1rem;
+  margin-left: calc(1rem + 2px);
+  margin-right: calc(1rem + 2px);
+}
+
+#quoteInput{
+    background-color: transparent;
+    border: 2px solid black;
+    outline: none;
+    width: 100%;
+    height: 8rem;
+    margin: auto;
+    resize: none;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+    color: white;
+}
+
+#quoteInput:focus {
+    border: 2px solid white;
+}
+
+#info{
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.footer {
+  text-align: center;
+  display: block;
+  font-size: 0.8em;
+  color: #fff;
+  width: 90%;
+  padding: 0.5em;
+}
+
+.footer a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+ } 
+
+
+.correct {
+    color: green;
+}
+
+.incorrect{
+    color: red;
+    text-decoration: underline;
+}  
+
+.wpm, .cpm {
+  display: none
+}
