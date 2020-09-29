@@ -125,7 +125,10 @@ EGGHEAD.IO - Completed the React course - The Beginner's Guide to React by Kent 
 CODEPEN - Created typing game to learn typing on the go. Codepen link - https://codepen.io/ramyachinnadurai/full/MWyxXyp
 
 # Day 42
-CODEPEN - Continue with typing game -  with UI to calculate errors and accuracy
+CODEPEN - Continued with typing game -  with UI to calculate errors and accuracy
 
-# day 43
- CODEPEN - Continue with typing game - added feature errors and accuracy
+# Day 43
+CODEPEN - Continued with typing game - added feature errors and accuracy
+
+# Day 44
+CODEPEN - Finished typing game - added feature wpm, cpm and restart game. 
