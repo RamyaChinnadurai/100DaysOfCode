@@ -132,3 +132,6 @@ CODEPEN - Continued with typing game - added feature errors and accuracy
 
 # Day 44
 CODEPEN - Finished typing game - added feature wpm, cpm and restart game. 
+
+# Day 45
+CODEPEN - Built todo app using hooks by watching tutorial from traversy media - https://codepen.io/ramyachinnadurai/pen/ZEWNjXx
