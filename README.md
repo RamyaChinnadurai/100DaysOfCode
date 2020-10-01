@@ -135,3 +135,6 @@ CODEPEN - Finished typing game - added feature wpm, cpm and restart game.
 
 # Day 45
 CODEPEN - Built todo app using hooks by watching tutorial from traversy media - https://codepen.io/ramyachinnadurai/pen/ZEWNjXx
+
+# Day 46
+CODESANDBOX - Built expense tracker app using react hooks and context api by watching traversy media tutorial https://codesandbox.io/s/fervent-bohr-zjw80
