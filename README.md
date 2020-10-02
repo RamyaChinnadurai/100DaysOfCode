@@ -138,3 +138,6 @@ CODEPEN - Built todo app using hooks by watching tutorial from traversy media - 
 
 # Day 46
 CODESANDBOX - Built expense tracker app using react hooks and context api by watching traversy media tutorial https://codesandbox.io/s/fervent-bohr-zjw80
+
+# Day 47
+HACKTOBERFEST - Raised first PR for tabliss
