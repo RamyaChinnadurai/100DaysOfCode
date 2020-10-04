@@ -141,3 +141,9 @@ CODESANDBOX - Built expense tracker app using react hooks and context api by wat
 
 # Day 47
 HACKTOBERFEST - Raised first PR for tabliss
+
+# Day 48
+REACT WITH FIREBASE - Build app by following blog post
+
+# Day 49
+CODEPEN - Created stepper component animation 
