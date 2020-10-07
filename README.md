@@ -147,3 +147,9 @@ REACT WITH FIREBASE - Build app by following blog post
 
 # Day 49
 CODEPEN - Created stepper component animation 
+
+# Day 50 
+BLOG READING - Build React Redux Hacker News by robinwieruch
+
+# Day 51 
+BLOG READING - Learned to build animated sparkels by joshwcomeau
