@@ -159,3 +159,6 @@ SIDE PROJECT - Worked on side project, Habit tracker
 
 # Day 53
 EXPLORATION - Explored storybook.js. Created ui components and played with creating util components.
+
+# Day 54
+EXPLORATION - Twitter winner picker algorithm and confetti.js
