@@ -153,3 +153,9 @@ BLOG READING - Build React Redux Hacker News by robinwieruch
 
 # Day 51 
 BLOG READING - Learned to build animated sparkels by joshwcomeau
+
+# Day 52
+SIDE PROJECT - Worked on side project, Habit tracker 
+
+# Day 53
+EXPLORATION - Explored storybook.js. Created ui components and played with creating util components.
