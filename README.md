@@ -162,3 +162,6 @@ EXPLORATION - Explored storybook.js. Created ui components and played with creat
 
 # Day 54
 EXPLORATION - Twitter winner picker algorithm and confetti.js
+
+# Day 55
+PLAYED - Generator functions and redux sagas
