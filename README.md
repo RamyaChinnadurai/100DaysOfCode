@@ -165,3 +165,6 @@ EXPLORATION - Twitter winner picker algorithm and confetti.js
 
 # Day 55
 PLAYED - Generator functions and redux sagas
+
+# Day 56 
+EXPLORED - Testing with jest in js
