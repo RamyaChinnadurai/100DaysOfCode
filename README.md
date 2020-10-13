@@ -168,3 +168,9 @@ PLAYED - Generator functions and redux sagas
 
 # Day 56 
 EXPLORED - Testing with jest in js
+
+# Day57 
+EXPLORED - To write test in react using jest and testing-library.
+
+# Day 58 
+LEARNED - To write End to End testing in todo app Using Cypress
