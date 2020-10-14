@@ -174,3 +174,6 @@ EXPLORED - To write test in react using jest and testing-library.
 
 # Day 58 
 LEARNED - To write End to End testing in todo app Using Cypress
+
+# Day 59
+FREECODECAMP - Completed Visualize with bar chart project
