@@ -177,3 +177,6 @@ LEARNED - To write End to End testing in todo app Using Cypress
 
 # Day 59
 FREECODECAMP - Completed Visualize with bar chart project
+
+# Day 60
+FREECODECAMP - Completed Visualize Data with a Scatterplot Graph 
