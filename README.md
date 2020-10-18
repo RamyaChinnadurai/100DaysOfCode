@@ -180,3 +180,9 @@ FREECODECAMP - Completed Visualize with bar chart project
 
 # Day 60
 FREECODECAMP - Completed Visualize Data with a Scatterplot Graph 
+
+# Day 61
+EXPLORATION - Worked on side project.
+
+# Day 62
+FREECODECAMP - Visualize Data with a Heat Map 
