@@ -186,3 +186,9 @@ EXPLORATION - Worked on side project.
 
 # Day 62
 FREECODECAMP - Visualize Data with a Heat Map 
+
+# Day 63
+FREECODECAMP - Visualize Data with a Choropleth Map
+
+# Day 64 
+FREECODECAMP - 
