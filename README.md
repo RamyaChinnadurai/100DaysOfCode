@@ -191,4 +191,4 @@ FREECODECAMP - Visualize Data with a Heat Map
 FREECODECAMP - Visualize Data with a Choropleth Map
 
 # Day 64 
-FREECODECAMP - 
+FREECODECAMP - Visualize Data with a Treemap Diagram
