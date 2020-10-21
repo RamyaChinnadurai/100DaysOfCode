@@ -192,3 +192,11 @@ FREECODECAMP - Visualize Data with a Choropleth Map
 
 # Day 64 
 FREECODECAMP - Visualize Data with a Treemap Diagram
+
+# Day 65
+FREECODECAMP - APIs and Microservices Projects - Timestamp Microservice
+
+# Day 66 
+FREECODECAMP - APIs and Microservices Projects - Request Header Parser Microservice
+
+
