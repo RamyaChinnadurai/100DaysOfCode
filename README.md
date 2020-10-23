@@ -202,4 +202,7 @@ FREECODECAMP - APIs and Microservices Projects - Request Header Parser Microserv
 # Day 67
 FREECODECAMP - APIs and Microservices Projects - URL Shortener Microservice
 
+# Day 68
+FREECODECAMP - APIs and Microservices Projects - Exercise Tracker
+
 
