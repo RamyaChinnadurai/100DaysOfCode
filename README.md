@@ -205,4 +205,10 @@ FREECODECAMP - APIs and Microservices Projects - URL Shortener Microservice
 # Day 68
 FREECODECAMP - APIs and Microservices Projects - Exercise Tracker
 
+# Day 69 
+FREECODECAMP - APIs and Microservices Projects - File Metadata Microservice
+
+# Day 70 
+FREECODECAMP - Quality Assurance and Testing with Chai
+
 
