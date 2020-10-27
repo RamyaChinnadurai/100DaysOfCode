@@ -211,4 +211,8 @@ FREECODECAMP - APIs and Microservices Projects - File Metadata Microservice
 # Day 70 
 FREECODECAMP - Quality Assurance and Testing with Chai
 
+# Day 71 
+FREECODECAMP - Advanced Node and Express - pug.js and passport.js
 
+# Day 72 
+FREECODECAMP - Advance Node and Express - Connected to MongoAtlas and serialised in passport js
