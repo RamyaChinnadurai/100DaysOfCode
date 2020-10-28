@@ -215,4 +215,7 @@ FREECODECAMP - Quality Assurance and Testing with Chai
 FREECODECAMP - Advanced Node and Express - pug.js and passport.js
 
 # Day 72 
-FREECODECAMP - Advance Node and Express - Connected to MongoAtlas and serialised in passport js
+FREECODECAMP - Advanced Node and Express - Connected to MongoAtlas and serialised in passport js
+
+# Day 73
+FREECODECAMP - Advanced Node and Express - Authentication Strategies and Hashing the Passwords
