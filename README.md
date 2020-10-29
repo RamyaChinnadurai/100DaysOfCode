@@ -219,3 +219,6 @@ FREECODECAMP - Advanced Node and Express - Connected to MongoAtlas and serialise
 
 # Day 73
 FREECODECAMP - Advanced Node and Express - Authentication Strategies and Hashing the Passwords
+
+# Day 74
+FREECODECAMP - Completed Advanced Node and Express
