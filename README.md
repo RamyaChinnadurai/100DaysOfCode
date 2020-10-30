@@ -222,3 +222,6 @@ FREECODECAMP - Advanced Node and Express - Authentication Strategies and Hashing
 
 # Day 74
 FREECODECAMP - Completed Advanced Node and Express
+
+# Day 75 
+FREECODECAMP - Working on Project 1 in Quality Assurance Projects - Metric Imperial Converter
