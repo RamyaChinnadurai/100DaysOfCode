@@ -225,3 +225,8 @@ FREECODECAMP - Completed Advanced Node and Express
 
 # Day 75 
 FREECODECAMP - Working on Project 1 in Quality Assurance Projects - Metric Imperial Converter
+
+# Day 76
+FREECODECAMP - Continued with Metric Imperial Converter
+
+
