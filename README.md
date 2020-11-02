@@ -230,3 +230,5 @@ FREECODECAMP - Working on Project 1 in Quality Assurance Projects - Metric Imper
 FREECODECAMP - Continued with Metric Imperial Converter
 
 
+# Day 77
+FREECODECAMP - Project 2 in Quality Assurance Projects - Issue Tracker
