@@ -234,3 +234,6 @@ FREECODECAMP - Project 2 in Quality Assurance Projects - Issue Tracker
 
 # Day 78 
 FREECODECAMP - Project 3 in Quality Assurance Projects - Personal Library
+
+# Day 79
+FREECODECAMP - Project 4 in Quality Assurance Projects - Sudoku Solver
