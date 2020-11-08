@@ -240,3 +240,15 @@ FREECODECAMP - Project 4 in Quality Assurance Projects - Sudoku Solver
 
 # Day 80
 FREECODECAMP - Project 5 in Quality Assurance Projects - American British Translator
+
+# Day 81 
+UDEMY COURSE - React - The Complete Guide (incl Hooks, React Router, Redux in Udemy. - Completed section 1 & continued section 2
+
+# Day 82 
+UDEMY COURSE - React - The Complete Guide (incl Hooks, React Router, Redux in Udemy. - Continued section Next Generation features ( section 2 )
+
+# Day 83
+UDEMY COURSE - React - The Complete Guide (incl Hooks, React Router, Redux in Udemy. - Continued section Base features and syntax ( section 3 )
+
+# Day 84
+UDEMY COURSE - React - The Complete Guide (incl Hooks, React Router, Redux in Udemy. - Completed sections Base features and syntax, Lists and conditions, Styling React components and elements ( section 3, 4 and 5 )
