@@ -255,3 +255,6 @@ UDEMY COURSE - React - The Complete Guide (incl Hooks, React Router, Redux in Ud
 
 # Day 85
 UDEMY COURSE - React - The Complete Guide (incl Hooks, React Router, Redux in Udemy. - Completed sections Debugging React Apps and continue section Diving deeper into components and react internals ( Section 6 and 7 )
+
+# Day 86
+UDEMY COURSE - React - The Complete Guide (incl Hooks, React Router, Redux in Udemy. - Continued section 7.
