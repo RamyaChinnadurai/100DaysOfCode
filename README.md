@@ -274,3 +274,5 @@ UDEMY COURSE - React - The Complete Guide (incl Hooks, React Router, Redux in Ud
 # Day 91
 UDEMY COURSE - React - The Complete Guide (incl Hooks, React Router, Redux in Udemy. - Completed section 10.
 
+# Day 92
+UDEMY COURSE - React - The Complete Guide (incl Hooks, React Router, Redux in Udemy. - Completed section 11.
